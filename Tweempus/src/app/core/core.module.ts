@@ -4,6 +4,8 @@ import { HeaderComponent } from './header/header.component';
 import { NavComponent } from './nav/nav.component';
 import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
+import { AuthGuardService } from './auth-guard.service';
+import { AuthenticationService } from './authentication.service';
 
 @NgModule({
   declarations: [HeaderComponent, NavComponent],
@@ -11,6 +13,7 @@ import { HttpClientModule } from '@angular/common/http';
             RouterModule,
             HttpClientModule
             ],
+  providers:[AuthGuardService, AuthenticationService],
   exports: [HeaderComponent, NavComponent],
 })
 export class CoreModule {}
