@@ -8,6 +8,7 @@ import { DashboardModule } from './dashboard/dashboard.module';
 import { AppRoutingModule } from './app-routing.module';
 import { LoginModule } from './login/login.module';
 import { ProfileModule } from './profile/profile.module';
+import { CreateTwimpModule } from './create-twimp/create-twimp.module';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { ProfileModule } from './profile/profile.module';
     DashboardModule,
     AppRoutingModule,
     LoginModule,
-    ProfileModule
+    ProfileModule,
+    CreateTwimpModule
   ],
   providers: [],
   bootstrap: [AppComponent]

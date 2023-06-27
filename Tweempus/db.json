@@ -9,9 +9,57 @@
       "id": "2",
       "fullName": "David Teitelbaum",
       "image": "https://randomuser.me/api/portraits/men/82.jpg"
+    },
+    {
+      "id": "Paco",
+      "fullName": "Perol",
+      "image": "https://randomuser.me/api/portraits/men/22.jpg"
+    },
+    {
+      "id": "Andy",
+      "fullName": "Andy",
+      "image": "https://randomuser.me/api/portraits/men/52.jpg"
+    },
+    {
+      "id": "PEpe",
+      "fullName": "Perolo",
+      "image": "https://randomuser.me/api/portraits/men/81.jpg"
     }
   ],
-  "authenticated": [],
+  "authenticated": [
+    {
+      "id": "eXIBD1687300705002",
+      "author": "1"
+    },
+    {
+      "id": "rCokv1687898473835",
+      "author": "1"
+    },
+    {
+      "id": "ognSt1687901804599",
+      "author": "Andy"
+    },
+    {
+      "id": "9Vx4Y1687901834324",
+      "author": "PEpe"
+    },
+    {
+      "id": "xkyzh1687902228698",
+      "author": "Paco"
+    },
+    {
+      "id": "pYFbU1687902324373",
+      "author": "1"
+    },
+    {
+      "id": "uLVPA1687902389835",
+      "author": "1"
+    },
+    {
+      "id": "vjVAH1687902902633",
+      "author": "1"
+    }
+  ],
   "twimps": [
     {
       "id": "Mx5Cf1483389903318",
@@ -26,26 +74,53 @@
       "by": "David Teitelbaum",
       "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam efficitur sodales libero, sit amet posuere arcu consectetur ut. Nam volutpat ligula ac nunc consectetur vestibulum.",
       "timestamp": "01-01-2023"
+    },
+    {
+      "id": "2",
+      "author": "1",
+      "by": "Author",
+      "content": "gfddfgfg",
+      "timestamp": "27-6-2023"
     }
   ],
   "author-favorites": [
     {
       "id": "1",
-      "twimps": ["T4qdo1483390015454"]
+      "twimps": [
+        "T4qdo1483390015454"
+      ]
     },
     {
       "id": "2",
-      "twimps": ["Mx5Cf1483389903318"]
+      "twimps": [
+        "Mx5Cf1483389903318"
+      ]
+    },
+    {
+      "id": "Paco",
+      "twimps": []
+    },
+    {
+      "id": "Andy",
+      "twimps": []
+    },
+    {
+      "id": "PEpe",
+      "twimps": []
     }
   ],
   "author-twimps": [
     {
       "id": "1",
-      "twimps": ["Mx5Cf1483389903318"]
+      "twimps": [
+        "Mx5Cf1483389903318"
+      ]
     },
     {
       "id": "2",
-      "twimps": ["T4qdo1483390015454"]
+      "twimps": [
+        "T4qdo1483390015454"
+      ]
     }
   ]
 }
