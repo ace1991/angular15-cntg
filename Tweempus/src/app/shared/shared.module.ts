@@ -6,6 +6,7 @@ import { AuthorCardComponent } from './author/author-card/author-card.component'
 import { RouterModule } from '@angular/router';
 import { AuthorService } from './author/author.service';
 import { TwimpService } from './twimp/twimp.service';
+import { SortByPipe } from './sort-by.pipe';
 
 
 
@@ -13,7 +14,8 @@ import { TwimpService } from './twimp/twimp.service';
   declarations: [
     TwimpCardComponent,
     TwimpListComponent,
-    AuthorCardComponent
+    AuthorCardComponent,
+    SortByPipe
   ],
   imports: [
     CommonModule,
